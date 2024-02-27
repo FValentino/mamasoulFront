@@ -1,0 +1,27 @@
+.logo{
+    font-family: 'Montserrat classic';
+    background-color: #F4EBDB;
+    line-height: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.user{
+    position: relative;
+    float: left;
+}
+
+.user img{
+    width: 30px;
+    height: 30px;
+}
+
+
+@media (max-width:767px){
+    .divider {
+        height: 1px;
+        margin: 9px 0;
+        overflow: hidden;
+        background-color: #e5e5e5;
+    }
+}
