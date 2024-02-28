@@ -3,17 +3,30 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import Image from 'react-bootstrap/Image'
+
+//images
+import logo from '../../assets/logo/sin-texto/logo-negro.png'
+import login from '../../assets/icons/login.png'
+import cart from '../../assets/icons/carrito.png'
 
 import style from '../../styles/header/menu-bar.module.css'
 
 function MenuBar(){
+
     return(
         <Navbar expand="lg" className="border border-start-0 border-top-0 border-end-0">
             <Container>
-                <Navbar.Brand className={style.logo} href="#home">
-                    MAMMA 
-                    <br />
-                    SOUL
+                <Navbar.Brand className="d-flex" href="#home">
+                    <div> 
+                        <Image src={logo} alt="logo" 
+                        fluid width="55" height="55"/>
+                    </div>
+                    <span className="pt-2 ps-1 pe-1 lh-1 fw-bold">
+                        MAMMA
+                        <br/>
+                        SOUL
+                    </span>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav"> 
@@ -34,12 +47,12 @@ function MenuBar(){
                     <Nav className="ms-auto">
                         <Nav.Link className="me-3 ">
                             <div className={style.user}> 
-                                <img src="../../../assets/login.png"/>
+                                <Image src={login} fluid width="30" height="30" />
                             </div>
                         </Nav.Link>
                         <Nav.Link className="me-3">
                             <div className={style.user}> 
-                                <img src="../../../assets/carrito.png"/>
+                                <Image src={cart} fluid width="30" height="30" />
                             </div>
                         </Nav.Link>
                     </Nav>
