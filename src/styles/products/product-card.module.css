@@ -1,0 +1,15 @@
+.card{
+    margin: 8px;
+    width: 11rem;
+    background-color: #F4EBDB
+}
+
+.cardBody{
+    display: block;
+    height: 14rem;
+    margin-bottom: 16px;
+}
+
+.cardButton{
+    background-color: #327A5C;
+}

@@ -1,0 +1,92 @@
+[
+    {
+        "id":1,
+        "nombre":"Cartera Rocket",
+        "precio":1111,
+        "ruta":"/productos/sin-fondo/bolsos-y-carteras/cartera-rocket.png"
+    },
+    {
+        "id":2,
+        "nombre":"Case porta celular negro y verde",
+        "precio":1111,
+        "ruta":"/productos/sin-fondo/bolsos-y-carteras/case-portacelular-negro-y-verde.png"
+    },
+    {
+        "id":3,
+        "nombre":"Case porta celular negro",
+        "precio":1111,
+        "ruta":"/productos/sin-fondo/bolsos-y-carteras/case-portacelular-negro.png"
+    },
+    {
+        "id":4,
+        "nombre":"Clutch rosa gold",
+        "precio":1111,
+        "ruta":"/productos/sin-fondo/bolsos-y-carteras/clutch-rosa-gold.png"
+    },
+    {
+        "id":5,
+        "nombre":"Minibag azul",
+        "precio":1111,
+        "ruta":"/productos/sin-fondo/bolsos-y-carteras/minibag-azul.png"
+    },
+    {
+        "id":6,
+        "nombre":"Minibag rosa",
+        "precio":1111,
+        "ruta":"/productos/sin-fondo/bolsos-y-carteras/minibag-rosa.png"
+    },
+    {
+        "id":7,
+        "nombre":"Minibag verde lima",
+        "precio":1111,
+        "ruta":"/productos/sin-fondo/bolsos-y-carteras/minibag-verde-lima.png"
+    },
+    {
+        "id":8,
+        "nombre":"Morral urban verde L",
+        "precio":1111,
+        "ruta":"/productos/sin-fondo/bolsos-y-carteras/morral-urban-verde-L.png"
+    },
+    {
+        "id":9,
+        "nombre":"Totebag con cremallera negra",
+        "precio":1111,
+        "ruta":"/productos/sin-fondo/bolsos-y-carteras/Totebag-con-cremallera-negra.png"
+    },
+    {
+        "id":10,
+        "nombre":"Totemax playera gris",
+        "precio":1111,
+        "ruta":"/productos/sin-fondo/bolsos-y-carteras/totemax-playera-gris.png"
+    },
+    {
+        "id":11,
+        "nombre":"Totemax playera gris 2",
+        "precio":1111,
+        "ruta":"/productos/sin-fondo/bolsos-y-carteras/totemax-playera-gris-2.png"
+    },
+    {
+        "id":12,
+        "nombre":"Totemax playera lila",
+        "precio":1111,
+        "ruta":"/productos/sin-fondo/bolsos-y-carteras/totemax-playera-lila.png"
+    },
+    {
+        "id":13,
+        "nombre":"Totemax playera rosa",
+        "precio":1111,
+        "ruta":"/productos/sin-fondo/bolsos-y-carteras/totemax-playera-rosa.png"
+    },
+    {
+        "id":20,
+        "nombre":"Mochila aventura verde",
+        "precio":1111,
+        "ruta":"/productos/sin-fondo/mochilas/mochila-Aventura-verde.png"
+    },
+    {
+        "id":30,
+        "nombre":"Riñonera conrtible",
+        "precio":1111,
+        "ruta":"/productos/sin-fondo/riñoneras/riñonera-convertible.png"
+    }
+]

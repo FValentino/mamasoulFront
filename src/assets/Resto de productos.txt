@@ -1,0 +1,60 @@
+    {
+        "id":1,
+        "nombre":"Cartera Rock",
+        "precio":1111,
+        "ruta":"/productos/sin-fondo/cartera-rock.png"
+    },
+    {
+        "id":2,
+        "nombre":"Case Negro",
+        "precio":1111,
+        "ruta":"/productos/sin-fondo/case-negro.png"
+    },
+    {
+        "id":3,
+        "nombre":"Case Verde y Negro",
+        "precio":1111,
+        "ruta":"/productos/sin-fondo/case-verde-y-negro.png"
+    },
+    {
+        "id":4,
+        "nombre":"Mochila Aventura",
+        "precio":1111,
+        "ruta":"/productos/sin-fondo/mochila-aventura.png"
+    },
+    {
+        "id":5,
+        "nombre":"Mochila Martina",
+        "precio":1111,
+        "ruta":"/productos/sin-fondo/mochila-martina.png"
+    },
+    {
+        "id":6,
+        "nombre":"Morrar Urban verde XL",
+        "precio":1111,
+        "ruta":"/productos/sin-fondo/morral-URBAN-verde-XL.png"
+    },
+    {
+        "id":7,
+        "nombre":"Riñonera Convertible",
+        "precio":1111,
+        "ruta":"/productos/sin-fondo/riñonera-convertible.png"
+    },
+    {
+        "id":8,
+        "nombre":"Riñonera Negra",
+        "precio":1111,
+        "ruta":"/productos/sin-fondo/riñonera-negra.png"
+    },
+    {
+        "id":9,
+        "nombre":"Totebag con Cremallera",
+        "precio":1111,
+        "ruta":"/productos/sin-fondo/totebag-con-cremallera.png"
+    },
+    {
+        "id":14,
+        "nombre":"Totemax Rosa",
+        "precio":1111,
+        "ruta":"/productos/sin-fondo/totemax-rosa.png"
+    }

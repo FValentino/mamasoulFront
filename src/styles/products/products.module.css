@@ -1,0 +1,11 @@
+.productsContainer{
+    display: block;
+    margin-top: 16px;
+    width: 1000px;
+}
+
+@media (max-width:464px){
+    .carousel-mobile {
+        margin-left: 0;
+    }
+}
