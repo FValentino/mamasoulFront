@@ -1,7 +1,7 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 import Carousel from 'react-bootstrap/Carousel';
-import banner from "/public/banner/Beige-Aesthetic-Fashion-Clothing-Collection-Medium-Banner-redimensionado-1.png"
+import banner from "/banner/Beige-Aesthetic-Fashion-Clothing-Collection-Medium-Banner-redimensionado-1.png"
 
 import Image from "react-bootstrap/Image";
 import "../../../styles/banner/main-banner.module.css"

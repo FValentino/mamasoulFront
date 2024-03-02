@@ -14,8 +14,12 @@ import style from '../../styles/header/menu-bar.module.css'
 
 function MenuBar(){
 
+    function showCategories(){
+
+    }
+
     return(
-        <Navbar expand="lg" className="border border-start-0 border-top-0 border-end-0">
+        <Navbar expand="lg" className="border-bottom">
             <Container>
                 <Navbar.Brand className="d-flex" href="#home">
                     <div> 
@@ -30,17 +34,9 @@ function MenuBar(){
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav"> 
-                    <Nav className="ms-auto">
+                    <Nav className="ms-auto fs-4 fw-bold">
                         <Nav.Link className="me-4">Inicio</Nav.Link>
                         <Nav.Link className="me-4">Nosotros</Nav.Link>
-                        <NavDropdown className="me-4" title="Categories" id="basic-nav-dropdown">
-                            <NavDropdown.Item>Riñonera</NavDropdown.Item>
-                            <NavDropdown.Item>Bolsos y carteras</NavDropdown.Item>
-                            <NavDropdown.Item>Mochilas</NavDropdown.Item>
-                            <NavDropdown.Item>Billeteras</NavDropdown.Item>
-                            <NavDropdown.Item>Cartucheras y neceser</NavDropdown.Item>
-                            <NavDropdown.Item>Tarjeteros</NavDropdown.Item>
-                        </NavDropdown>
                         <Nav.Link className="me-4">Contacto</Nav.Link>
                     </Nav>
                     <div className={style.divider}></div>
