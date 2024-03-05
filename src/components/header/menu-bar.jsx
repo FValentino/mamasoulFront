@@ -7,6 +7,7 @@ import Image from 'react-bootstrap/Image'
 
 //images
 import logo from '../../assets/logo/sin-texto/logo-negro.png'
+import marca from '../../assets/logo/logo-dos-lineas-negro.png'
 import login from '../../assets/icons/login.png'
 import cart from '../../assets/icons/carrito.png'
 
@@ -14,23 +15,17 @@ import style from '../../styles/header/menu-bar.module.css'
 
 function MenuBar(){
 
-    function showCategories(){
-
-    }
-
     return(
-        <Navbar expand="lg" className="border-bottom">
+        <Navbar expand="md" className="border-bottom mt-0">
             <Container>
                 <Navbar.Brand className="d-flex" href="#home">
                     <div> 
                         <Image src={logo} alt="logo" 
-                        fluid width="55" height="55"/>
+                        fluid width="55"/>
+
+                        <Image src={marca} alt="logo" 
+                        fluid width="90"/>
                     </div>
-                    <span className="pt-2 ps-1 pe-1 lh-1 fw-bold">
-                        MAMMA
-                        <br/>
-                        SOUL
-                    </span>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav"> 
