@@ -37,6 +37,14 @@ function MenuBar(){
                     <Nav className="ms-auto fs-4 fw-bold">
                         <Nav.Link className="me-4">Inicio</Nav.Link>
                         <Nav.Link className="me-4">Nosotros</Nav.Link>
+                        <NavDropdown title="Categorias" id="basic-nav-dropdown">
+                            <NavDropdown.Item href="">Riñoneras</NavDropdown.Item>
+                            <NavDropdown.Item href="">Bolsos y carteras</NavDropdown.Item>
+                            <NavDropdown.Item href="">Mochilas</NavDropdown.Item>
+                            <NavDropdown.Item href="">Billeteras</NavDropdown.Item>
+                            <NavDropdown.Item href="">Cartucheras y neceser</NavDropdown.Item>
+                            <NavDropdown.Item href="">Tarjeteros</NavDropdown.Item>
+                        </NavDropdown>
                         <Nav.Link className="me-4">Contacto</Nav.Link>
                     </Nav>
                     <div className={style.divider}></div>
