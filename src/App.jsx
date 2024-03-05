@@ -1,18 +1,12 @@
 import React from 'react'
 import './App.css'
 
-import Header from './components/header/header'
-import MainBanner from './components/banner/main-banner/main-banner'
-import Products from './components/products/products'
+import MainPage from './components/main-page/main-page.jsx';
 
 function App() {
 
   return (
-    <div className='contnainer'>
-      <Header/>
-      <MainBanner/>
-      <Products />
-    </div>
+    <MainPage/>
   );
 }
 
